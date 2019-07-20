@@ -19,7 +19,6 @@
 		8810DEF222E1AA2D00E31F90 /* SAPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810DEF122E1AA2D00E31F90 /* SAPlaceholder.swift */; };
 		8810DEF422E1B3B700E31F90 /* SAValidationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810DEF322E1B3B700E31F90 /* SAValidationLabel.swift */; };
 		8810DEF722E1BD0C00E31F90 /* SAValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810DEF622E1BD0C00E31F90 /* SAValidationError.swift */; };
-		8810DEF922E308F700E31F90 /* SAMaterialTextFieldBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810DEF822E308F700E31F90 /* SAMaterialTextFieldBuilder.swift */; };
 		A6B6089301A0BFF0D2A2E553 /* Pods_SAMaterialTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5592FCF6A6F8E027F4AB2230 /* Pods_SAMaterialTextFieldTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +53,6 @@
 		8810DEF122E1AA2D00E31F90 /* SAPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPlaceholder.swift; sourceTree = "<group>"; };
 		8810DEF322E1B3B700E31F90 /* SAValidationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAValidationLabel.swift; sourceTree = "<group>"; };
 		8810DEF622E1BD0C00E31F90 /* SAValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAValidationError.swift; sourceTree = "<group>"; };
-		8810DEF822E308F700E31F90 /* SAMaterialTextFieldBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAMaterialTextFieldBuilder.swift; sourceTree = "<group>"; };
 		E243F3CEFDCBCB2EEFB0384F /* Pods-SAMaterialTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMaterialTextField.debug.xcconfig"; path = "Target Support Files/Pods-SAMaterialTextField/Pods-SAMaterialTextField.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				8810DEF622E1BD0C00E31F90 /* SAValidationError.swift */,
-				8810DEF822E308F700E31F90 /* SAMaterialTextFieldBuilder.swift */,
 				8810DEED22E1665200E31F90 /* SAMaterialTextField.swift */,
 				8810DEF122E1AA2D00E31F90 /* SAPlaceholder.swift */,
 				8810DEEF22E1A30E00E31F90 /* UIView+Extension.swift */,
@@ -326,7 +323,6 @@
 				8810DEF422E1B3B700E31F90 /* SAValidationLabel.swift in Sources */,
 				8810DEF222E1AA2D00E31F90 /* SAPlaceholder.swift in Sources */,
 				8810DEEE22E1665200E31F90 /* SAMaterialTextField.swift in Sources */,
-				8810DEF922E308F700E31F90 /* SAMaterialTextFieldBuilder.swift in Sources */,
 				8810DEF722E1BD0C00E31F90 /* SAValidationError.swift in Sources */,
 				8810DEF022E1A30E00E31F90 /* UIView+Extension.swift in Sources */,
 				8810DECE22E1662B00E31F90 /* AppDelegate.swift in Sources */,

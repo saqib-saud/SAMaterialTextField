@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 import Validator
 
-class SAValdationLabel: UILabel, SAMaterialTextFieldView {
-    func configure(forMaterialTextField textField: SAMaterialTextField) {
+public class SAValdationLabel: UILabel, SAMaterialTextFieldView {
+    public func configure(forMaterialTextField textField: SAMaterialTextField) {
         
     }
     var validatorPattern: ValidationRulePattern?
-    func materialTextFieldDidEndEditing(_ textField: SAMaterialTextField) {
+    public func materialTextFieldDidEndEditing(_ textField: SAMaterialTextField) {
         guard let validationPattern = validatorPattern else { return }
         guard let text = textField.text else { return }
         switch text.validate(rule: validationPattern) {
@@ -29,7 +29,7 @@ class SAValdationLabel: UILabel, SAMaterialTextFieldView {
 }
 
 extension SAValdationLabel {
-    class func emailValidator() -> SAValdationLabel {
+    public class func emailValidator() -> SAValdationLabel {
         let validationLabel = SAValdationLabel()
         validationLabel.validatorPattern = ValidationRulePattern(pattern: EmailValidationPattern.standard, error: SAValidationError("Invalid email address"))
         return validationLabel

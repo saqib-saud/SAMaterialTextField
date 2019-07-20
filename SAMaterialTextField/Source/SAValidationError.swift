@@ -9,9 +9,9 @@
 import Foundation
 import Validator
 
-struct SAValidationError: ValidationError {
+public struct SAValidationError: ValidationError {
     
-    let message: String
+    public let message: String
     
     public init(_ message: String) {
         

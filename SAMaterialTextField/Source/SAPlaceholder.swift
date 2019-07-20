@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol SAMaterialTextFieldView {
+public protocol SAMaterialTextFieldView {
     func materialTextFieldDidBeginEditing(_ textField: SAMaterialTextField)
     func materialTextFieldDidEndEditing(_ textField: SAMaterialTextField)
     func materialTextFieldDidUpdateText(_ textField: SAMaterialTextField)
@@ -19,30 +19,38 @@ protocol SAMaterialTextFieldView {
  * Optional Methods
  */
 extension SAMaterialTextFieldView {
-    func materialTextFieldDidBeginEditing(_ textField: SAMaterialTextField) {
+    public func materialTextFieldDidBeginEditing(_ textField: SAMaterialTextField) {
     }
-    func materialTextFieldDidEndEditing(_ textField: SAMaterialTextField) {
+    public func materialTextFieldDidEndEditing(_ textField: SAMaterialTextField) {
     }
-    func materialTextFieldDidUpdateText(_ textField: SAMaterialTextField) {
+    public func materialTextFieldDidUpdateText(_ textField: SAMaterialTextField) {
     }
 }
-protocol SAMaterialTextPlaceholder: SAMaterialTextFieldView {
+public protocol SAMaterialTextPlaceholder: SAMaterialTextFieldView {
     var placeholder: String? { get set}
     var maxHeight: CGFloat { get set}
     var minHeight: CGFloat { get set}
+    var titleColor: UIColor { get set}
+    var titleFont:UIFont { get set}
+    var placeholderColor: UIColor { get set}
+    var placeholderFont:UIFont { get set}
 }
 
-class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
-    var maxHeight: CGFloat = 0.0
-    var minHeight: CGFloat = 14.0
+public class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
+    public var maxHeight: CGFloat = 0.0
+    public var minHeight: CGFloat = 14.0
     
-    var placeholderColor: UIColor = .lightGray
-    var titleColor: UIColor = .darkGray
+    public var placeholderColor: UIColor = .lightGray {
+        didSet {
+            self.textColor = placeholderColor
+        }
+    }
+    public var titleColor: UIColor = .darkGray
     
-    var titleFont = UIFont.systemFont(ofSize: 12.0)
-    var placeholderFont = UIFont.systemFont(ofSize: 17.0)
+    public var titleFont = UIFont.systemFont(ofSize: 12.0)
+    public var placeholderFont = UIFont.systemFont(ofSize: 17.0)
     
-    var placeholder: String? {
+    public var placeholder: String? {
         set {
             self.text = newValue
         }
@@ -54,7 +62,7 @@ class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
     @objc dynamic open var titleFadeInDuration: TimeInterval = 0.2
     @objc dynamic open var titleFadeOutDuration: TimeInterval = 0.3
 
-    func materialTextFieldDidUpdateText(_ textField: SAMaterialTextField) {
+    public func materialTextFieldDidUpdateText(_ textField: SAMaterialTextField) {
         if textField.text?.count ?? 0 > 0 {
             isEditing = true
         } else {
@@ -62,7 +70,7 @@ class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
         }
         updateTitleVisibility(true)
     }
-    func configure(forMaterialTextField textField: SAMaterialTextField) {
+    public func configure(forMaterialTextField textField: SAMaterialTextField) {
         self.font = textField.font
         self.textColor = placeholderColor
         maxHeight = textField.textRect(forBounds: textField.bounds).height

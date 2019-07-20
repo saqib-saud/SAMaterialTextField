@@ -8,14 +8,14 @@
 
 import UIKit
 
-class SAMaterialTextField: UITextField {
-    var floatingPlaceHolder: (UIView & SAMaterialTextPlaceholder)? {
+public class SAMaterialTextField: UITextField {
+    public var floatingPlaceHolder: (UIView & SAMaterialTextPlaceholder)? {
         didSet {
             guard let view = floatingPlaceHolder else { return }
             addSubview(view)
         }
     }
-    var bottomView: (UIView & SAMaterialTextFieldView)? {
+    public var bottomView: (UIView & SAMaterialTextFieldView)? {
         didSet {
             guard let view = bottomView else { return }
             view.isHidden = true
@@ -30,9 +30,43 @@ class SAMaterialTextField: UITextField {
             return 0.0
         }
     }
-    var bottomBorderHeight: CGFloat {
+    public var bottomBorderHeight: CGFloat {
         return 1.0
     }
+    public var placeholderColor: UIColor? {
+        set {
+            floatingPlaceHolder?.placeholderColor = newValue ?? UIColor.black
+        }
+        get {
+            return floatingPlaceHolder?.placeholderColor
+        }
+    }
+    public var titleColor: UIColor? {
+        set {
+            floatingPlaceHolder?.titleColor = newValue ?? UIColor.black
+        }
+        get {
+            return floatingPlaceHolder?.titleColor
+        }
+    }
+    
+    public var titleFont: UIFont? {
+        set {
+            floatingPlaceHolder?.titleFont = newValue ?? UIFont.systemFont(ofSize: 12.0)
+        }
+        get {
+            return floatingPlaceHolder?.titleFont
+        }
+    }
+    public var placeholderFont: UIFont? {
+        set {
+            floatingPlaceHolder?.placeholderFont = newValue ?? UIFont.systemFont(ofSize: 17.0)
+        }
+        get {
+            return floatingPlaceHolder?.placeholderFont
+        }
+    }
+    public var underlineColor: UIColor?
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
@@ -47,7 +81,6 @@ class SAMaterialTextField: UITextField {
     fileprivate final func setup() {
         addEditingChangedObserver()
         draw(textRect(forBounds: bounds))
-        self.textColor = .darkText
     }
     fileprivate func addEditingChangedObserver() {
         self.addTarget(self, action: #selector(editingBegin), for: .editingChanged)
@@ -84,17 +117,17 @@ class SAMaterialTextField: UITextField {
         return CGRect(origin: CGPoint(x: textRect.origin.x, y: textRect.origin.y + (floatingPlaceHolder?.minHeight ?? 0)), size: CGSize(width: textRect.size.width, height: self.frame.size.height - (floatingPlaceHolder?.minHeight ?? 0) - bottomBorderHeight))
     }
     
-    override func textRect(forBounds bounds: CGRect) -> CGRect {
+    override public func textRect(forBounds bounds: CGRect) -> CGRect {
         let textRect = super.textRect(forBounds: bounds)
         return updatedTextRect(textRect)
     }
     
-    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+    override public func editingRect(forBounds bounds: CGRect) -> CGRect {
         let textRect = super.editingRect(forBounds: bounds)
         return updatedTextRect(textRect)
     }
     
-    override var placeholder: String? {
+    override public var placeholder: String? {
         set {
             floatingPlaceHolder?.placeholder = newValue
         }
@@ -102,11 +135,15 @@ class SAMaterialTextField: UITextField {
             return floatingPlaceHolder?.placeholder
         }
     }
-    override func draw(_ rect: CGRect)
+    override public func draw(_ rect: CGRect)
     {
         super.draw(rect)
         guard let context = UIGraphicsGetCurrentContext() else { return }
-        context.setStrokeColor(UIColor.gray.cgColor)
+        if let underlineColor = underlineColor {
+            context.setStrokeColor(underlineColor.cgColor)
+        } else {
+            context.setStrokeColor(UIColor.gray.cgColor)
+        }
         context.setLineWidth(1)
         context.move(to: CGPoint(x: 0, y: bounds.height/2 + 10 ))
         context.addLine(to: CGPoint(x: bounds.width, y: bounds.height/2 + 10))
