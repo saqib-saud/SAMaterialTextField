@@ -9,6 +9,16 @@
 import UIKit
 
 public class SAMaterialTextField: UITextField {
+    public override var text: String? {
+        didSet {
+            super.text = text
+            if text?.count ?? 0 > 0 {
+                floatingPlaceHolder?.isEditing = true
+            } else {
+                floatingPlaceHolder?.isEditing = false
+            }
+        }
+    }
     public var floatingPlaceHolder: (UIView & SAMaterialTextPlaceholder)? {
         didSet {
             guard let view = floatingPlaceHolder else { return }

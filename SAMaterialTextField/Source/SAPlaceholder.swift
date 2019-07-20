@@ -31,9 +31,10 @@ public protocol SAMaterialTextPlaceholder: SAMaterialTextFieldView {
     var maxHeight: CGFloat { get set}
     var minHeight: CGFloat { get set}
     var titleColor: UIColor { get set}
-    var titleFont:UIFont { get set}
+    var titleFont: UIFont { get set}
     var placeholderColor: UIColor { get set}
-    var placeholderFont:UIFont { get set}
+    var placeholderFont: UIFont { get set}
+    var isEditing: Bool { get set}
 }
 
 public class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
@@ -58,7 +59,11 @@ public class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
             return self.text
         }
     }
-    var isEditing = false
+    public var isEditing = false {
+        didSet {
+            updateTitleVisibility(true)
+        }
+    }
     @objc dynamic open var titleFadeInDuration: TimeInterval = 0.2
     @objc dynamic open var titleFadeOutDuration: TimeInterval = 0.3
 
@@ -106,7 +111,7 @@ public class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
         if editing {
             return CGRect(x: 0, y: 3, width: bounds.size.width, height: minHeight)
         }
-        return CGRect(x: 0, y: 3, width: bounds.size.width, height: maxHeight)
+        return CGRect(x: 0, y: 0, width: bounds.size.width, height: maxHeight - 10)
     }
     
 }

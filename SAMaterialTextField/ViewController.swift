@@ -26,10 +26,11 @@ class ViewController: UIViewController {
         icon.textColor = .black
         icon.font = UIFont.fontAwesome(ofSize: 25, style: .solid)
         icon.text = String.fontAwesomeIcon(name: .caretDown)
-        largeMaterialTextField.rightView = icon
-        largeMaterialTextField.rightViewMode = .always
         placeholder.configure(forMaterialTextField: largeMaterialTextField)
         largeMaterialTextField.floatingPlaceHolder = placeholder
+        largeMaterialTextField.rightView = icon
+        largeMaterialTextField.rightViewMode = .always
+        largeMaterialTextField.text = "Prefilled text"
         largeMaterialTextField.placeholder = "Testing 1 2dsfdfsd3"
         
         let warning = SAValdationLabel.emailValidator()
