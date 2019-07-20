@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FA521531A6DFC1209732035429ED00 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C759D71E6790BF5386D3B64D5885D /* FontAwesomeImageView.swift */; };
+		0FB5FF51B597E1E0312C5F1438BAB51B /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D053652E6312CAF37A12775B127A8F76 /* FontAwesome.swift-dummy.m */; };
+		1C81C5BE9CB5F8A2620757EB10940935 /* Pods-SAMaterialTextFieldTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B28985AF2B1E955F7CC8C30241802D /* Pods-SAMaterialTextFieldTests-dummy.m */; };
+		22CAB863C8E98C2BD1CEEA2381A46A34 /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD3AEFAAA2D78BCE9D5D61E3CE80A1 /* FontAwesomeTextRepresentable.swift */; };
+		2632FC0C8206C73EF572332AFD8808C9 /* ValidationRulePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C2C898991EFE32AD403D9BB8BCFCA8 /* ValidationRulePattern.swift */; };
+		26D86A5A6215B671C527751DFD6BFE1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		39581DFFFA40F4965D46B12F0CDEC32B /* UISlider+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F10BCEE9EE9127D407320BF114017F /* UISlider+Validator.swift */; };
+		3C2D8A704F16D47FEEA9CB94E6F12012 /* UITextView+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637DB340C4826A0025929B01CAA7331 /* UITextView+Validator.swift */; };
+		48B1D833A2208F02FD40FBAF00D83D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		506ACADC63134125FA6DF10CF06FD027 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 942E00DBF5BAC7705CD7AB70F480A4EE /* Font Awesome 5 Brands-Regular-400.otf */; };
+		528BA5A6513B4A08795650F5B04681AA /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88713BABC5E6CBCAC211AFDC0F738F1C /* ValidationError.swift */; };
+		55286D2DEC1DB91F601519B9649B49C2 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0290231A6097B218DEC17D7AFF308E61 /* Font Awesome 5 Free-Regular-400.otf */; };
+		574B9487D4E1269CBEED40023D4C6532 /* ValidationRuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A652E1062124DF9EE4F4D9928782D /* ValidationRuleLength.swift */; };
+		5B6D3DEC18474E34AA101BDD9BD432A3 /* UITextField+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B582669FD268187879D573ED38FBC /* UITextField+Validator.swift */; };
+		601E00A0F66F5D358EE6F48487C93036 /* CaseValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C118741CEA12AB7F028DF84FA12F5A /* CaseValidationPattern.swift */; };
+		61239A14782DBCA931A712D4EE664DE9 /* ValidationRuleEquality.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C03252F6A0E4444949303159FF50A0 /* ValidationRuleEquality.swift */; };
+		61C9A8FE8D52BC960E547C4190464E7C /* ValidationRuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8CBCB204FCC909C1F2A6F19FE720A /* ValidationRuleRequired.swift */; };
+		632EC0ADDD99413F1C10964C64CF72B6 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272DD68309DFD6C170378CCD90414AA6 /* FontAwesomeImageRepresentable.swift */; };
+		6977E3610919B4AAF83DD5DFC2789B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		6CADCBC18CE422499677C423AB08B95A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		769E73BAE26F14766F3D2F8CC2A295EF /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */; };
+		7909140E0C4898AFB176C98A25A1E9C1 /* ValidationRulePaymentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D281D23BCA690E095C4DAEE228B62 /* ValidationRulePaymentCard.swift */; };
+		7BFE4CB72D9AD8D1781B864B5C1EE1B6 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F7F1A2AB7790D15C10FFCB32942BC /* FontAwesomeBarButtonItem.swift */; };
+		81254017D2D4A97CBE1534E22E519329 /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C396572A56A11E74166E40671E64AC /* FontAwesomeExtension.swift */; };
+		8290F9DA66CC4E7CEDB660749194EE73 /* Pods-SAMaterialTextFieldTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4BA1432D7EB0377DF9FDF67C955FC6 /* Pods-SAMaterialTextFieldTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8561EC7985004056F564DB3012DECAFC /* Validator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5174C2A8C2FE87A38D5FBE226C022AA0 /* Validator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88703EFA5F39A9C53799FB29E017AD42 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = A08595B01C3E8F5E73C336302BDD593D /* Font Awesome 5 Free-Solid-900.otf */; };
+		8DC785D0EC04427925ED3F93017DC624 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED261416BA425B9EFFF6FB948C8D84 /* FontAwesomeSegmentedControl.swift */; };
+		8F6362C1BF7AD190516A06AA24927C5F /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6885DC3CE7E41E611B80269DEC8F73 /* Validatable.swift */; };
+		9121FDEE13955863C88EE556E4B8EC3F /* Validator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE418F6BF5198D0C0B83EE2D526F66A /* Validator-dummy.m */; };
+		9660E19A729B6577490560A48A280842 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A4344A60E4A5D219C05255FF4DCFF /* Validator.swift */; };
+		9769F3D8A77C3B0A241064BD6EC63E46 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024AABF27D16828BB837A61C61D938E /* ValidationResult.swift */; };
+		9DE3360E24D9FE3ADA0C2162E8DBE1A5 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 226045F6E0D3A1DBADA662DEB1F13F79 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E7564B57DBED48CFFBA52C96E2EC06C /* ContainsNumberValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C153CBC7621A8D13F14C24E5DB909C /* ContainsNumberValidationPattern.swift */; };
+		9EC64229DE3BA8A4C7C20801078E5D94 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329327E3383C744748227558CC8FAED /* ValidationRule.swift */; };
+		A40FD679EA4164AAB96094D8AE90CD09 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B857EB8906F02F217474643291A7310 /* FontAwesomeView.swift */; };
+		A9B419286D43BC9244B3FAF44ED44C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		B071D78D00AA012482188C34D246AD86 /* ValidationRuleContains.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0093F1A1C05B7CDD27FE8D42E58776 /* ValidationRuleContains.swift */; };
+		B4F8D52D338BEC501CEB0554B1F4C186 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		BB22DA229DB829B2365D04227B0F01FC /* ValidationRuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16BAA103E11654E2A25CD00D6272C0 /* ValidationRuleURL.swift */; };
+		C151B59556E6370EDCDE6A41B73E0440 /* ValidatableInterfaceElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D40B8220E00D26670734620442B4643 /* ValidatableInterfaceElement.swift */; };
+		C472BF180CE883EE3D8D12C5D1BFDFA7 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AE2CFB1777EC0056A47A5D355436D9 /* FontAwesomeTabBarItem.swift */; };
+		C7BA1B3FC4C025CAF4C156B2912BF3F8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */; };
+		C8EAF04ED354B652CC88B7AC96BFC3EC /* ValidationRuleCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8553369BE44E86A1D2CAD880702DB58 /* ValidationRuleCondition.swift */; };
+		D5CDC1AEB5FC963F8D14061802F21884 /* ValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1EDB0BCF255F98AAB92766776238A3 /* ValidationPattern.swift */; };
+		D71293F143E62C33E8676E4E6CC8DA6F /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB689A30C2892ADC6A05B87D09C197E /* FontAwesome.swift */; };
+		D85F89BD78E7234E51C26E4F314BE0FE /* EmailValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8114C6DA7B3AF9640511D982BE7E9E37 /* EmailValidationPattern.swift */; };
+		D90F510A9D0AFB652B9BCFA3B0D763D4 /* ValidationRuleSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784CCFF6E13B1B9A109A1B55BE6159CE /* ValidationRuleSet.swift */; };
+		DC7A22B339CA1049C19D06C7A93DF302 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C23CE98D9AE13E9B701222BCFD5A8 /* Enum.swift */; };
+		E42ABC5CBCB70A4729E6E45A090E0414 /* Pods-SAMaterialTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D3EA8E7CCF645B692C91A91B1877BC /* Pods-SAMaterialTextField-dummy.m */; };
+		F60708130BC28A0B99016B982B0E7C4E /* Pods-SAMaterialTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4234DB9AFE70355B19176932175CC53 /* Pods-SAMaterialTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F1D48DBFA28D40422071316F8673FE /* ValidationRuleComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A14748D1A6459F82B3476063EE39CA /* ValidationRuleComparison.swift */; };
+		FE49B0792565E3DBA62187EBEB4E1E58 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75991C754FAB4B7B347723487B4979AA /* FontAwesomeStateRequirement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29BF657C89FB94C99A8C7651419EB89B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB240150692F32EC312F3CF346C8B9D1;
+			remoteInfo = FontAwesome.swift;
+		};
+		8D8E933C806D6A1873206381134AE123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD37ABCAE1166E2514729C6620EEA17;
+			remoteInfo = "Pods-SAMaterialTextField";
+		};
+		D06B65A6786DC2E10084C7B8E08BEF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC20DD2E50259D674257304EC016C93;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
+		};
+		E89D336DDEE1EFF587D956632C9459F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E7E03875D04F3FFAEE1E88F50589CA;
+			remoteInfo = Validator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0290231A6097B218DEC17D7AFF308E61 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		032F67321D34EE01369F5810E71B7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		03D3EA8E7CCF645B692C91A91B1877BC /* Pods-SAMaterialTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAMaterialTextField-dummy.m"; sourceTree = "<group>"; };
+		040323A50030762500A3123B61ABFCE9 /* Validator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Validator-Info.plist"; sourceTree = "<group>"; };
+		04B28985AF2B1E955F7CC8C30241802D /* Pods-SAMaterialTextFieldTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAMaterialTextFieldTests-dummy.m"; sourceTree = "<group>"; };
+		06B0A4DFC38ED1DB70942D8F52B5334E /* Validator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Validator.modulemap; sourceTree = "<group>"; };
+		06C396572A56A11E74166E40671E64AC /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
+		09C118741CEA12AB7F028DF84FA12F5A /* CaseValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaseValidationPattern.swift; path = Validator/Sources/Patterns/CaseValidationPattern.swift; sourceTree = "<group>"; };
+		0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0EA14342E42D4495EE836A751AE358F2 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		13ED261416BA425B9EFFF6FB948C8D84 /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
+		1642C424E4AC7B5EB0070B880B92F3F7 /* Pods-SAMaterialTextField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAMaterialTextField-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19A91E9A8C95C1F7A800CF274B759D26 /* Pods-SAMaterialTextField-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAMaterialTextField-frameworks.sh"; sourceTree = "<group>"; };
+		1B1EDB0BCF255F98AAB92766776238A3 /* ValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationPattern.swift; path = Validator/Sources/Patterns/ValidationPattern.swift; sourceTree = "<group>"; };
+		1DA1DBBFBA4385E734877660E45663B3 /* Validator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validator-prefix.pch"; sourceTree = "<group>"; };
+		1F6F7F1A2AB7790D15C10FFCB32942BC /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
+		208C23CE98D9AE13E9B701222BCFD5A8 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		226045F6E0D3A1DBADA662DEB1F13F79 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		23621862A99429490F9C983069F078BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		272DD68309DFD6C170378CCD90414AA6 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB4907B0BFB98DF7EE65214F55F49AB /* Pods-SAMaterialTextFieldTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAMaterialTextFieldTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B857EB8906F02F217474643291A7310 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		3D9B44788FDACEF092FE15F1F7D646D0 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = "FontAwesome.swift-FontAwesome.swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A6433AE8CC770175D52FD572F23FD4 /* Pods-SAMaterialTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SAMaterialTextField.modulemap"; sourceTree = "<group>"; };
+		4939A47F01C86E5E9EA0ECBE331C40F4 /* Pods-SAMaterialTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAMaterialTextField-Info.plist"; sourceTree = "<group>"; };
+		4B6885DC3CE7E41E611B80269DEC8F73 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Validator/Sources/Validatable.swift; sourceTree = "<group>"; };
+		514D281D23BCA690E095C4DAEE228B62 /* ValidationRulePaymentCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRulePaymentCard.swift; path = Validator/Sources/Rules/ValidationRulePaymentCard.swift; sourceTree = "<group>"; };
+		5174C2A8C2FE87A38D5FBE226C022AA0 /* Validator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validator-umbrella.h"; sourceTree = "<group>"; };
+		5398A35B2AE0247CE4769615CCC4F292 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		608CF116093C7CF83D34C8EF97BF4DB9 /* Pods-SAMaterialTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMaterialTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D40B8220E00D26670734620442B4643 /* ValidatableInterfaceElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatableInterfaceElement.swift; path = "Validator/Sources/UIKit+Validator/ValidatableInterfaceElement.swift"; sourceTree = "<group>"; };
+		6D4BA1432D7EB0377DF9FDF67C955FC6 /* Pods-SAMaterialTextFieldTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAMaterialTextFieldTests-umbrella.h"; sourceTree = "<group>"; };
+		6F5666547E2C55F0EB45B81524321852 /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		70602DB4D74F742D330A41A75BC002F6 /* Pods-SAMaterialTextFieldTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SAMaterialTextFieldTests.modulemap"; sourceTree = "<group>"; };
+		75991C754FAB4B7B347723487B4979AA /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
+		76250834133FACE89CD006D1F3034B28 /* Pods-SAMaterialTextFieldTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAMaterialTextFieldTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76C153CBC7621A8D13F14C24E5DB909C /* ContainsNumberValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainsNumberValidationPattern.swift; path = Validator/Sources/Patterns/ContainsNumberValidationPattern.swift; sourceTree = "<group>"; };
+		778A43DE3EA035383F503F3CB114C303 /* Validator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Validator.framework; path = Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CCFF6E13B1B9A109A1B55BE6159CE /* ValidationRuleSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleSet.swift; path = Validator/Sources/Rules/ValidationRuleSet.swift; sourceTree = "<group>"; };
+		79AE2CFB1777EC0056A47A5D355436D9 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		79D8CBCB204FCC909C1F2A6F19FE720A /* ValidationRuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleRequired.swift; path = Validator/Sources/Rules/ValidationRuleRequired.swift; sourceTree = "<group>"; };
+		8114C6DA7B3AF9640511D982BE7E9E37 /* EmailValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailValidationPattern.swift; path = Validator/Sources/Patterns/EmailValidationPattern.swift; sourceTree = "<group>"; };
+		8637DB340C4826A0025929B01CAA7331 /* UITextView+Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Validator.swift"; path = "Validator/Sources/UIKit+Validator/UITextView+Validator.swift"; sourceTree = "<group>"; };
+		88713BABC5E6CBCAC211AFDC0F738F1C /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = Validator/Sources/ValidationError.swift; sourceTree = "<group>"; };
+		942E00DBF5BAC7705CD7AB70F480A4EE /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08595B01C3E8F5E73C336302BDD593D /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		A5C03252F6A0E4444949303159FF50A0 /* ValidationRuleEquality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleEquality.swift; path = Validator/Sources/Rules/ValidationRuleEquality.swift; sourceTree = "<group>"; };
+		A8ED94F33C68C50306522439DF100096 /* Pods-SAMaterialTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMaterialTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A46F24A24A1E003D06CDAA491688F5 /* Pods_SAMaterialTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SAMaterialTextFieldTests.framework; path = "Pods-SAMaterialTextFieldTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA16BAA103E11654E2A25CD00D6272C0 /* ValidationRuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleURL.swift; path = Validator/Sources/Rules/ValidationRuleURL.swift; sourceTree = "<group>"; };
+		B3F10BCEE9EE9127D407320BF114017F /* UISlider+Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Validator.swift"; path = "Validator/Sources/UIKit+Validator/UISlider+Validator.swift"; sourceTree = "<group>"; };
+		C329327E3383C744748227558CC8FAED /* ValidationRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRule.swift; path = Validator/Sources/Rules/ValidationRule.swift; sourceTree = "<group>"; };
+		C4234DB9AFE70355B19176932175CC53 /* Pods-SAMaterialTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAMaterialTextField-umbrella.h"; sourceTree = "<group>"; };
+		C4D217E5DC464C18710A980D575571D7 /* Validator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Validator.xcconfig; sourceTree = "<group>"; };
+		C61575E6701779EDC75D6CABC000B2F2 /* Pods_SAMaterialTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SAMaterialTextField.framework; path = "Pods-SAMaterialTextField.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A14748D1A6459F82B3476063EE39CA /* ValidationRuleComparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleComparison.swift; path = Validator/Sources/Rules/ValidationRuleComparison.swift; sourceTree = "<group>"; };
+		C7C2C898991EFE32AD403D9BB8BCFCA8 /* ValidationRulePattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRulePattern.swift; path = Validator/Sources/Rules/ValidationRulePattern.swift; sourceTree = "<group>"; };
+		C8553369BE44E86A1D2CAD880702DB58 /* ValidationRuleCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleCondition.swift; path = Validator/Sources/Rules/ValidationRuleCondition.swift; sourceTree = "<group>"; };
+		CA8C759D71E6790BF5386D3B64D5885D /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		CB7B582669FD268187879D573ED38FBC /* UITextField+Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Validator.swift"; path = "Validator/Sources/UIKit+Validator/UITextField+Validator.swift"; sourceTree = "<group>"; };
+		CB9D3617BA9663991038ABF8639B32DD /* Pods-SAMaterialTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMaterialTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		D053652E6312CAF37A12775B127A8F76 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		D2482462961BB528DBB8C3F00636426D /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		E16A4344A60E4A5D219C05255FF4DCFF /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = Validator/Sources/Validator.swift; sourceTree = "<group>"; };
+		E3DD3AEFAAA2D78BCE9D5D61E3CE80A1 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		E916B6385D7CFA4BA1F38C8F50AE6FA8 /* Pods-SAMaterialTextField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAMaterialTextField-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC0093F1A1C05B7CDD27FE8D42E58776 /* ValidationRuleContains.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleContains.swift; path = Validator/Sources/Rules/ValidationRuleContains.swift; sourceTree = "<group>"; };
+		ED1A46F7C1775037698E301B00C26DD8 /* Pods-SAMaterialTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAMaterialTextField.release.xcconfig"; sourceTree = "<group>"; };
+		EFB689A30C2892ADC6A05B87D09C197E /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		F024AABF27D16828BB837A61C61D938E /* ValidationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationResult.swift; path = Validator/Sources/ValidationResult.swift; sourceTree = "<group>"; };
+		FA0A652E1062124DF9EE4F4D9928782D /* ValidationRuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleLength.swift; path = Validator/Sources/Rules/ValidationRuleLength.swift; sourceTree = "<group>"; };
+		FC9DA6B7B4DA7D65C37EF643F7F5A254 /* Pods-SAMaterialTextFieldTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAMaterialTextFieldTests-Info.plist"; sourceTree = "<group>"; };
+		FEE418F6BF5198D0C0B83EE2D526F66A /* Validator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Validator-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889FC90E007AF2C9DE5C84516B57F606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BA1B3FC4C025CAF4C156B2912BF3F8 /* CoreText.framework in Frameworks */,
+				6CADCBC18CE422499677C423AB08B95A /* Foundation.framework in Frameworks */,
+				26D86A5A6215B671C527751DFD6BFE1A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D02709B0474F7A8A4CDB21BAD4322E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B419286D43BC9244B3FAF44ED44C0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E461109F7C8F6856E2B401CB6EBC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6091336ECA1EE61220728FBA5B82AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B1D833A2208F02FD40FBAF00D83D69 /* Foundation.framework in Frameworks */,
+				B4F8D52D338BEC501CEB0554B1F4C186 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8A5AF1FAAEDF0BF9C36A7B0AC8FA3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6977E3610919B4AAF83DD5DFC2789B48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092FD875F565846165BF2D8B053941F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092FD875F565846165BF2D8B053941F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */,
+				23621862A99429490F9C983069F078BB /* Foundation.framework */,
+				032F67321D34EE01369F5810E71B7660 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0A55B2E7325DB227A835489D0E645C4F /* Pods-SAMaterialTextField */ = {
+			isa = PBXGroup;
+			children = (
+				44A6433AE8CC770175D52FD572F23FD4 /* Pods-SAMaterialTextField.modulemap */,
+				1642C424E4AC7B5EB0070B880B92F3F7 /* Pods-SAMaterialTextField-acknowledgements.markdown */,
+				E916B6385D7CFA4BA1F38C8F50AE6FA8 /* Pods-SAMaterialTextField-acknowledgements.plist */,
+				03D3EA8E7CCF645B692C91A91B1877BC /* Pods-SAMaterialTextField-dummy.m */,
+				19A91E9A8C95C1F7A800CF274B759D26 /* Pods-SAMaterialTextField-frameworks.sh */,
+				4939A47F01C86E5E9EA0ECBE331C40F4 /* Pods-SAMaterialTextField-Info.plist */,
+				C4234DB9AFE70355B19176932175CC53 /* Pods-SAMaterialTextField-umbrella.h */,
+				A8ED94F33C68C50306522439DF100096 /* Pods-SAMaterialTextField.debug.xcconfig */,
+				ED1A46F7C1775037698E301B00C26DD8 /* Pods-SAMaterialTextField.release.xcconfig */,
+			);
+			name = "Pods-SAMaterialTextField";
+			path = "Target Support Files/Pods-SAMaterialTextField";
+			sourceTree = "<group>";
+		};
+		1189BE54FC0F95DA9214A7F1B851A583 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B0A4DFC38ED1DB70942D8F52B5334E /* Validator.modulemap */,
+				C4D217E5DC464C18710A980D575571D7 /* Validator.xcconfig */,
+				FEE418F6BF5198D0C0B83EE2D526F66A /* Validator-dummy.m */,
+				040323A50030762500A3123B61ABFCE9 /* Validator-Info.plist */,
+				1DA1DBBFBA4385E734877660E45663B3 /* Validator-prefix.pch */,
+				5174C2A8C2FE87A38D5FBE226C022AA0 /* Validator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Validator";
+			sourceTree = "<group>";
+		};
+		1ADD292CB3F2EC3421FDACE4188733D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB621F47782A39BDD9C9D44BCD103E07 /* FontAwesome.swift */,
+				61370451FFA503C9E04213636EF51596 /* Validator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		298E1799A156F61CD7B7736F852E3B47 /* Pods-SAMaterialTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				70602DB4D74F742D330A41A75BC002F6 /* Pods-SAMaterialTextFieldTests.modulemap */,
+				2FB4907B0BFB98DF7EE65214F55F49AB /* Pods-SAMaterialTextFieldTests-acknowledgements.markdown */,
+				76250834133FACE89CD006D1F3034B28 /* Pods-SAMaterialTextFieldTests-acknowledgements.plist */,
+				04B28985AF2B1E955F7CC8C30241802D /* Pods-SAMaterialTextFieldTests-dummy.m */,
+				FC9DA6B7B4DA7D65C37EF643F7F5A254 /* Pods-SAMaterialTextFieldTests-Info.plist */,
+				6D4BA1432D7EB0377DF9FDF67C955FC6 /* Pods-SAMaterialTextFieldTests-umbrella.h */,
+				608CF116093C7CF83D34C8EF97BF4DB9 /* Pods-SAMaterialTextFieldTests.debug.xcconfig */,
+				CB9D3617BA9663991038ABF8639B32DD /* Pods-SAMaterialTextFieldTests.release.xcconfig */,
+			);
+			name = "Pods-SAMaterialTextFieldTests";
+			path = "Target Support Files/Pods-SAMaterialTextFieldTests";
+			sourceTree = "<group>";
+		};
+		3A3ACA53F079D8AAC9FEB14039291B93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				942E00DBF5BAC7705CD7AB70F480A4EE /* Font Awesome 5 Brands-Regular-400.otf */,
+				0290231A6097B218DEC17D7AFF308E61 /* Font Awesome 5 Free-Regular-400.otf */,
+				A08595B01C3E8F5E73C336302BDD593D /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		61370451FFA503C9E04213636EF51596 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				09C118741CEA12AB7F028DF84FA12F5A /* CaseValidationPattern.swift */,
+				76C153CBC7621A8D13F14C24E5DB909C /* ContainsNumberValidationPattern.swift */,
+				8114C6DA7B3AF9640511D982BE7E9E37 /* EmailValidationPattern.swift */,
+				B3F10BCEE9EE9127D407320BF114017F /* UISlider+Validator.swift */,
+				CB7B582669FD268187879D573ED38FBC /* UITextField+Validator.swift */,
+				8637DB340C4826A0025929B01CAA7331 /* UITextView+Validator.swift */,
+				4B6885DC3CE7E41E611B80269DEC8F73 /* Validatable.swift */,
+				6D40B8220E00D26670734620442B4643 /* ValidatableInterfaceElement.swift */,
+				88713BABC5E6CBCAC211AFDC0F738F1C /* ValidationError.swift */,
+				1B1EDB0BCF255F98AAB92766776238A3 /* ValidationPattern.swift */,
+				F024AABF27D16828BB837A61C61D938E /* ValidationResult.swift */,
+				C329327E3383C744748227558CC8FAED /* ValidationRule.swift */,
+				C7A14748D1A6459F82B3476063EE39CA /* ValidationRuleComparison.swift */,
+				C8553369BE44E86A1D2CAD880702DB58 /* ValidationRuleCondition.swift */,
+				EC0093F1A1C05B7CDD27FE8D42E58776 /* ValidationRuleContains.swift */,
+				A5C03252F6A0E4444949303159FF50A0 /* ValidationRuleEquality.swift */,
+				FA0A652E1062124DF9EE4F4D9928782D /* ValidationRuleLength.swift */,
+				C7C2C898991EFE32AD403D9BB8BCFCA8 /* ValidationRulePattern.swift */,
+				514D281D23BCA690E095C4DAEE228B62 /* ValidationRulePaymentCard.swift */,
+				79D8CBCB204FCC909C1F2A6F19FE720A /* ValidationRuleRequired.swift */,
+				784CCFF6E13B1B9A109A1B55BE6159CE /* ValidationRuleSet.swift */,
+				AA16BAA103E11654E2A25CD00D6272C0 /* ValidationRuleURL.swift */,
+				E16A4344A60E4A5D219C05255FF4DCFF /* Validator.swift */,
+				1189BE54FC0F95DA9214A7F1B851A583 /* Support Files */,
+			);
+			name = Validator;
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		95652FCA898D251D95B76EA3EF78148B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
+				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
+				C61575E6701779EDC75D6CABC000B2F2 /* Pods_SAMaterialTextField.framework */,
+				A9A46F24A24A1E003D06CDAA491688F5 /* Pods_SAMaterialTextFieldTests.framework */,
+				778A43DE3EA035383F503F3CB114C303 /* Validator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80F40A3B76C5666371A3CCF0134F1DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A55B2E7325DB227A835489D0E645C4F /* Pods-SAMaterialTextField */,
+				298E1799A156F61CD7B7736F852E3B47 /* Pods-SAMaterialTextFieldTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5B097D997F27C8DEAFC7528AB6EA286 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2482462961BB528DBB8C3F00636426D /* FontAwesome.swift.modulemap */,
+				5398A35B2AE0247CE4769615CCC4F292 /* FontAwesome.swift.xcconfig */,
+				D053652E6312CAF37A12775B127A8F76 /* FontAwesome.swift-dummy.m */,
+				6F5666547E2C55F0EB45B81524321852 /* FontAwesome.swift-Info.plist */,
+				0EA14342E42D4495EE836A751AE358F2 /* FontAwesome.swift-prefix.pch */,
+				226045F6E0D3A1DBADA662DEB1F13F79 /* FontAwesome.swift-umbrella.h */,
+				3D9B44788FDACEF092FE15F1F7D646D0 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				1ADD292CB3F2EC3421FDACE4188733D0 /* Pods */,
+				95652FCA898D251D95B76EA3EF78148B /* Products */,
+				B80F40A3B76C5666371A3CCF0134F1DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FB621F47782A39BDD9C9D44BCD103E07 /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				208C23CE98D9AE13E9B701222BCFD5A8 /* Enum.swift */,
+				EFB689A30C2892ADC6A05B87D09C197E /* FontAwesome.swift */,
+				1F6F7F1A2AB7790D15C10FFCB32942BC /* FontAwesomeBarButtonItem.swift */,
+				06C396572A56A11E74166E40671E64AC /* FontAwesomeExtension.swift */,
+				272DD68309DFD6C170378CCD90414AA6 /* FontAwesomeImageRepresentable.swift */,
+				CA8C759D71E6790BF5386D3B64D5885D /* FontAwesomeImageView.swift */,
+				13ED261416BA425B9EFFF6FB948C8D84 /* FontAwesomeSegmentedControl.swift */,
+				75991C754FAB4B7B347723487B4979AA /* FontAwesomeStateRequirement.swift */,
+				79AE2CFB1777EC0056A47A5D355436D9 /* FontAwesomeTabBarItem.swift */,
+				E3DD3AEFAAA2D78BCE9D5D61E3CE80A1 /* FontAwesomeTextRepresentable.swift */,
+				3B857EB8906F02F217474643291A7310 /* FontAwesomeView.swift */,
+				3A3ACA53F079D8AAC9FEB14039291B93 /* Resources */,
+				C5B097D997F27C8DEAFC7528AB6EA286 /* Support Files */,
+			);
+			name = FontAwesome.swift;
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05284C704C22791CED568D7376C9E1AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8561EC7985004056F564DB3012DECAFC /* Validator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0C59614A011D4C05A07ADC5786318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60708130BC28A0B99016B982B0E7C4E /* Pods-SAMaterialTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBA5478645BDD0A8C3034582914552E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8290F9DA66CC4E7CEDB660749194EE73 /* Pods-SAMaterialTextFieldTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE4C7F4345CDC22DFD0DA8533F5F57B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE3360E24D9FE3ADA0C2162E8DBE1A5 /* FontAwesome.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44E7E03875D04F3FFAEE1E88F50589CA /* Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B86156FA6422659672E6D374DB4E78 /* Build configuration list for PBXNativeTarget "Validator" */;
+			buildPhases = (
+				05284C704C22791CED568D7376C9E1AD /* Headers */,
+				A7FE2077D304EA7B92813055F97480B5 /* Sources */,
+				C6091336ECA1EE61220728FBA5B82AD8 /* Frameworks */,
+				9F9388649FE5516A8DAEA98B2DE95B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Validator;
+			productName = Validator;
+			productReference = 778A43DE3EA035383F503F3CB114C303 /* Validator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BD37ABCAE1166E2514729C6620EEA17 /* Pods-SAMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E95EE95C31BA584FF833677CE123A81 /* Build configuration list for PBXNativeTarget "Pods-SAMaterialTextField" */;
+			buildPhases = (
+				0CD0C59614A011D4C05A07ADC5786318 /* Headers */,
+				1F2CFFF255483779B40A3EC1D90D7138 /* Sources */,
+				8D02709B0474F7A8A4CDB21BAD4322E0 /* Frameworks */,
+				DDC43D73D660D1C2347EF2C062904485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C327F18D2D0FE8C9851DB1D29344B2 /* PBXTargetDependency */,
+				272D7D982EBFA7693F11F816F9AB2B8F /* PBXTargetDependency */,
+			);
+			name = "Pods-SAMaterialTextField";
+			productName = "Pods-SAMaterialTextField";
+			productReference = C61575E6701779EDC75D6CABC000B2F2 /* Pods_SAMaterialTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162CE2CC222588C47F9D8623AC2D740C /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildPhases = (
+				A8047C3FFDA6444FE7150EE130F76CD6 /* Sources */,
+				B2E461109F7C8F6856E2B401CB6EBC27 /* Frameworks */,
+				894D7CAAA9B98700AF38B4C59C0C0BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72A36E6CAEEEF1BFE244B0DF658E365 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
+			buildPhases = (
+				ECE4C7F4345CDC22DFD0DA8533F5F57B /* Headers */,
+				A8925681EB2BF025BB55530B5E2900D4 /* Sources */,
+				889FC90E007AF2C9DE5C84516B57F606 /* Frameworks */,
+				F52DAFB0ECDBC2C21F9A22F311FDFDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DD140710EF752CE3A5897A912AAAA0 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = 28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB75811ED7DDC6514DDEDFF6CB119667 /* Pods-SAMaterialTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873624317AA4ACA122C7B722D0FB399F /* Build configuration list for PBXNativeTarget "Pods-SAMaterialTextFieldTests" */;
+			buildPhases = (
+				7DBA5478645BDD0A8C3034582914552E /* Headers */,
+				0C4D66099D5487A8ACE5D564C85D6737 /* Sources */,
+				CE8A5AF1FAAEDF0BF9C36A7B0AC8FA3F /* Frameworks */,
+				25545111602932DD2620728DB282D6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E6849E0478A900127CC6C37BF1A032 /* PBXTargetDependency */,
+			);
+			name = "Pods-SAMaterialTextFieldTests";
+			productName = "Pods-SAMaterialTextFieldTests";
+			productReference = A9A46F24A24A1E003D06CDAA491688F5 /* Pods_SAMaterialTextFieldTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 95652FCA898D251D95B76EA3EF78148B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */,
+				4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */,
+				4BD37ABCAE1166E2514729C6620EEA17 /* Pods-SAMaterialTextField */,
+				FB75811ED7DDC6514DDEDFF6CB119667 /* Pods-SAMaterialTextFieldTests */,
+				44E7E03875D04F3FFAEE1E88F50589CA /* Validator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25545111602932DD2620728DB282D6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894D7CAAA9B98700AF38B4C59C0C0BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506ACADC63134125FA6DF10CF06FD027 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				55286D2DEC1DB91F601519B9649B49C2 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				88703EFA5F39A9C53799FB29E017AD42 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9388649FE5516A8DAEA98B2DE95B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC43D73D660D1C2347EF2C062904485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DAFB0ECDBC2C21F9A22F311FDFDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769E73BAE26F14766F3D2F8CC2A295EF /* FontAwesome.swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C4D66099D5487A8ACE5D564C85D6737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81C5BE9CB5F8A2620757EB10940935 /* Pods-SAMaterialTextFieldTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2CFFF255483779B40A3EC1D90D7138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42ABC5CBCB70A4729E6E45A090E0414 /* Pods-SAMaterialTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE2077D304EA7B92813055F97480B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601E00A0F66F5D358EE6F48487C93036 /* CaseValidationPattern.swift in Sources */,
+				9E7564B57DBED48CFFBA52C96E2EC06C /* ContainsNumberValidationPattern.swift in Sources */,
+				D85F89BD78E7234E51C26E4F314BE0FE /* EmailValidationPattern.swift in Sources */,
+				39581DFFFA40F4965D46B12F0CDEC32B /* UISlider+Validator.swift in Sources */,
+				5B6D3DEC18474E34AA101BDD9BD432A3 /* UITextField+Validator.swift in Sources */,
+				3C2D8A704F16D47FEEA9CB94E6F12012 /* UITextView+Validator.swift in Sources */,
+				8F6362C1BF7AD190516A06AA24927C5F /* Validatable.swift in Sources */,
+				C151B59556E6370EDCDE6A41B73E0440 /* ValidatableInterfaceElement.swift in Sources */,
+				528BA5A6513B4A08795650F5B04681AA /* ValidationError.swift in Sources */,
+				D5CDC1AEB5FC963F8D14061802F21884 /* ValidationPattern.swift in Sources */,
+				9769F3D8A77C3B0A241064BD6EC63E46 /* ValidationResult.swift in Sources */,
+				9EC64229DE3BA8A4C7C20801078E5D94 /* ValidationRule.swift in Sources */,
+				F7F1D48DBFA28D40422071316F8673FE /* ValidationRuleComparison.swift in Sources */,
+				C8EAF04ED354B652CC88B7AC96BFC3EC /* ValidationRuleCondition.swift in Sources */,
+				B071D78D00AA012482188C34D246AD86 /* ValidationRuleContains.swift in Sources */,
+				61239A14782DBCA931A712D4EE664DE9 /* ValidationRuleEquality.swift in Sources */,
+				574B9487D4E1269CBEED40023D4C6532 /* ValidationRuleLength.swift in Sources */,
+				2632FC0C8206C73EF572332AFD8808C9 /* ValidationRulePattern.swift in Sources */,
+				7909140E0C4898AFB176C98A25A1E9C1 /* ValidationRulePaymentCard.swift in Sources */,
+				61C9A8FE8D52BC960E547C4190464E7C /* ValidationRuleRequired.swift in Sources */,
+				D90F510A9D0AFB652B9BCFA3B0D763D4 /* ValidationRuleSet.swift in Sources */,
+				BB22DA229DB829B2365D04227B0F01FC /* ValidationRuleURL.swift in Sources */,
+				9121FDEE13955863C88EE556E4B8EC3F /* Validator-dummy.m in Sources */,
+				9660E19A729B6577490560A48A280842 /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8047C3FFDA6444FE7150EE130F76CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8925681EB2BF025BB55530B5E2900D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7A22B339CA1049C19D06C7A93DF302 /* Enum.swift in Sources */,
+				D71293F143E62C33E8676E4E6CC8DA6F /* FontAwesome.swift in Sources */,
+				0FB5FF51B597E1E0312C5F1438BAB51B /* FontAwesome.swift-dummy.m in Sources */,
+				7BFE4CB72D9AD8D1781B864B5C1EE1B6 /* FontAwesomeBarButtonItem.swift in Sources */,
+				81254017D2D4A97CBE1534E22E519329 /* FontAwesomeExtension.swift in Sources */,
+				632EC0ADDD99413F1C10964C64CF72B6 /* FontAwesomeImageRepresentable.swift in Sources */,
+				08FA521531A6DFC1209732035429ED00 /* FontAwesomeImageView.swift in Sources */,
+				8DC785D0EC04427925ED3F93017DC624 /* FontAwesomeSegmentedControl.swift in Sources */,
+				FE49B0792565E3DBA62187EBEB4E1E58 /* FontAwesomeStateRequirement.swift in Sources */,
+				C472BF180CE883EE3D8D12C5D1BFDFA7 /* FontAwesomeTabBarItem.swift in Sources */,
+				22CAB863C8E98C2BD1CEEA2381A46A34 /* FontAwesomeTextRepresentable.swift in Sources */,
+				A40FD679EA4164AAB96094D8AE90CD09 /* FontAwesomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272D7D982EBFA7693F11F816F9AB2B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Validator;
+			target = 44E7E03875D04F3FFAEE1E88F50589CA /* Validator */;
+			targetProxy = E89D336DDEE1EFF587D956632C9459F4 /* PBXContainerItemProxy */;
+		};
+		46DD140710EF752CE3A5897A912AAAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = 4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = D06B65A6786DC2E10084C7B8E08BEF0B /* PBXContainerItemProxy */;
+		};
+		50C327F18D2D0FE8C9851DB1D29344B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */;
+			targetProxy = 29BF657C89FB94C99A8C7651419EB89B /* PBXContainerItemProxy */;
+		};
+		96E6849E0478A900127CC6C37BF1A032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SAMaterialTextField";
+			target = 4BD37ABCAE1166E2514729C6620EEA17 /* Pods-SAMaterialTextField */;
+			targetProxy = 8D8E933C806D6A1873206381134AE123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D55D58CB3BF58392F364A398DA89209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5398A35B2AE0247CE4769615CCC4F292 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1E47E18442A581A5002DD96477ED84C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9D3617BA9663991038ABF8639B32DD /* Pods-SAMaterialTextFieldTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAMaterialTextFieldTests/Pods-SAMaterialTextFieldTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAMaterialTextFieldTests/Pods-SAMaterialTextFieldTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C124DF7A47209A316F7950254079AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5398A35B2AE0247CE4769615CCC4F292 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F0FABCA1395405C6192AD4515AD0CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8ED94F33C68C50306522439DF100096 /* Pods-SAMaterialTextField.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAMaterialTextField/Pods-SAMaterialTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAMaterialTextField/Pods-SAMaterialTextField.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B6ED9C5BE505D530723F1A09CED583A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D217E5DC464C18710A980D575571D7 /* Validator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Validator/Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validator/Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Validator/Validator.modulemap";
+				PRODUCT_MODULE_NAME = Validator;
+				PRODUCT_NAME = Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3D75058EB895AACCE0F1A0CA97E4ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608CF116093C7CF83D34C8EF97BF4DB9 /* Pods-SAMaterialTextFieldTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAMaterialTextFieldTests/Pods-SAMaterialTextFieldTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAMaterialTextFieldTests/Pods-SAMaterialTextFieldTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAC9665BC9E2A13B66E80B3F29B4474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1A46F7C1775037698E301B00C26DD8 /* Pods-SAMaterialTextField.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAMaterialTextField/Pods-SAMaterialTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAMaterialTextField/Pods-SAMaterialTextField.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1BAA4E174B801062C356040BA9F2063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5398A35B2AE0247CE4769615CCC4F292 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE373C0A0C90FF7FC6D3657592A3F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5398A35B2AE0247CE4769615CCC4F292 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE106D27435D81FBFC9255CCBCDB672A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D217E5DC464C18710A980D575571D7 /* Validator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Validator/Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validator/Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Validator/Validator.modulemap";
+				PRODUCT_MODULE_NAME = Validator;
+				PRODUCT_NAME = Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B86156FA6422659672E6D374DB4E78 /* Build configuration list for PBXNativeTarget "Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6ED9C5BE505D530723F1A09CED583A /* Debug */,
+				FE106D27435D81FBFC9255CCBCDB672A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162CE2CC222588C47F9D8623AC2D740C /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D55D58CB3BF58392F364A398DA89209 /* Debug */,
+				DE373C0A0C90FF7FC6D3657592A3F4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E95EE95C31BA584FF833677CE123A81 /* Build configuration list for PBXNativeTarget "Pods-SAMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FABCA1395405C6192AD4515AD0CB0 /* Debug */,
+				CAC9665BC9E2A13B66E80B3F29B4474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873624317AA4ACA122C7B722D0FB399F /* Build configuration list for PBXNativeTarget "Pods-SAMaterialTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D75058EB895AACCE0F1A0CA97E4ADB /* Debug */,
+				1E47E18442A581A5002DD96477ED84C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72A36E6CAEEEF1BFE244B0DF658E365 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BAA4E174B801062C356040BA9F2063 /* Debug */,
+				2C124DF7A47209A316F7950254079AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

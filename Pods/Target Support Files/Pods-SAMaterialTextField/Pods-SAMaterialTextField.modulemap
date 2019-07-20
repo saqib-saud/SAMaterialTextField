@@ -1,0 +1,6 @@
+framework module Pods_SAMaterialTextField {
+  umbrella header "Pods-SAMaterialTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
