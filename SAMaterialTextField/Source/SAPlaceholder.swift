@@ -77,6 +77,7 @@ public class SAPlaceHolder: UILabel, SAMaterialTextPlaceholder {
     }
     public func configure(forMaterialTextField textField: SAMaterialTextField) {
         self.font = textField.font
+        
         self.textColor = placeholderColor
         maxHeight = textField.textRect(forBounds: textField.bounds).height
         self.backgroundColor = .clear

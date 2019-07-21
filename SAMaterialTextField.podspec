@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SAMaterialTextField"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "Simple Material design TextField"
 
   spec.description  = <<-DESC
